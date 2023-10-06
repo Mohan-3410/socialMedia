@@ -31,6 +31,7 @@ function Follower({ user }) {
             </div>
 
             <h5 onClick={handleUserFollow}
+                id="mobile-view"
                 className={
                     isFollowing ? "hover-link follow-link" : "btn-primary"
                 }

@@ -60,6 +60,7 @@ function Profile() {
                         </div>
                         {!isMyProfile && (
                             <h5
+                            id="mobile-view1"
                                 style={{marginTop:'10px'}}
                                 onClick={handleUserFollow}
                                 className={
@@ -73,6 +74,7 @@ function Profile() {
                         )}
                         {isMyProfile && (
                             <button
+                            id="mobile-view"
                                 className="update-profile btn-secondary"
                                 onClick={() => {
                                     navigate("/updateProfile");
